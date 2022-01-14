@@ -36,12 +36,12 @@ npm install npm@latest -g
 
 1. Install the package
 ```sh
-npm install --save @nullxx/sigma-academic
+npm install --save @nullx/sigma-academic
 ```
 
 2. Usage
 ```ts
-import SigmaAcademic from "@nullxx/sigma-academic";
+import SigmaAcademic from "@nullx/sigma-academic";
 
 const deusto = new SigmaAcademic({
   baseURL: "https://gaude.deusto.es",
