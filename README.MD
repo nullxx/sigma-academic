@@ -16,6 +16,8 @@
 
 ## Sobre este proyecto
 
+El código de este repositorio ha sido resultado de un proceso de ingeniería inversa de la app oficial de sigma academic.
+
 Este repositorio ha sido creado con fines únicamente educativos. Cualquier uso de este que infrinja alguna de las normas establecidas por el centro queda bajo su propia responsabilidad.
 
 
