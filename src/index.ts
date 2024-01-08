@@ -38,3 +38,7 @@ export default class SigmaAcademic {
     ).data;
   }
 }
+
+export * from "./interfaces/Login";
+export * from "./interfaces/GetMarks";
+export * from "./interfaces/Login";
