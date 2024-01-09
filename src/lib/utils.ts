@@ -1,5 +1,5 @@
 export function objectToParams(obj: { [key: string]: any }): string {
-  return Object.keys(obj)
-    .map((key) => `${key}=${obj[key]}`)
+  return Object.entries(obj)
+    .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
     .join("&");
 }
