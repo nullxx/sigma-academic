@@ -1,12 +1,13 @@
 {
   "name": "@nullx/sigma-academic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "API for requesting sigma academic information",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "Jon Lara <mail@nullx.me> (https://nullx.me)",
